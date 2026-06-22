@@ -1,5 +1,4 @@
 from unstructured.partition.pdf import partition_pdf
-from unstructured.chunking import chunk_by_title
 
 
 def document_partition(file_path: str):
@@ -14,6 +13,5 @@ def document_partition(file_path: str):
 
     no_of_element = print(f"Number of partiotion created {len(elements)}")
 
-    return elements
-
+    return elements 
 
